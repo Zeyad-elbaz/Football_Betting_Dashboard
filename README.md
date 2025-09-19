@@ -31,7 +31,7 @@ Faculty of Informatics and Information Technologies, Slovak University of Techno
 
 2025
 
-##Retrieved from## <https://github.com/xgabora/Club-Football-Match-Data-2000-2025/>.
+**Retrieved from** <https://github.com/xgabora/Club-Football-Match-Data-2000-2025/>.
 
 ------------------------------------------------------------------------
 
@@ -134,7 +134,7 @@ AVERAGEX (
 )
 ```
 
-#### -   Average yellow card s=\
+#### -   Average yellow cards=\
 
 ``` dax
 AVERAGEX (
@@ -171,7 +171,7 @@ IF (
 )
 ```
 
--   Total cards in a game =\
+#### -   Total cards in a game =\
 
 ``` dax
 SUMX(Matches, Matches[HomeYellow] + Matches[AwayYellow] + Matches[HomeRed] + Matches[AwayRed])  
